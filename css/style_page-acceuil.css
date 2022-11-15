@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+background: rgb(82,87,117);
+background: linear-gradient(90deg, rgba(82,87,117,1) 0%, rgba(39,98,144,0.9948354341736695) 100%);
+}
+
+
+.nav-bar {
+    background: none;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+
+}
+
+.nav-bar img{
+    background: none;
+    left: 0px;
+}
+
+
+.video-logo {
+    background: none;
+    margin-left: 25px;
+    width: 350px;
+    top: 0px;
+}
+
+.profile-logo {
+    background: none;
+    width: 200px;
+}
+
+a {
+    background: none;
+}
+
+.message-logo {
+    background: none;
+    margin-left: 25px;
+    width: 200px;
+}
+
+.telephone-logo {
+    background: none;
+    margin-left: 25px;
+    width: 200px;
+}
+
+.fil-actu {
+    background: none;
+   width: 75%;
+   height: 74.5%;
+   border: 2px solid black;
+   background-color: grey;
+}
+
+.plus-button {
+    background: none;
+    position: absolute;
+    top: 500px;
+    right: 50px;
+    width: 300px;
+}
+
+.pub-oasis {
+    background: none;
+    width: 396px;
+    position: absolute;
+    z-index: 0;
+    right: 0px;
+    top: 208px;
+}
+
+.vieux-image {
+    width: 70%;
+}
+
+.commentaire {
+    background: none;
+    position: absolute;
+    top: 208px;
+    width: 360px;
+    height: 470px;
+    background-color: #f1f1f1;
+    border: 4px solid black;
+    right: 390px;
+    z-index: 1;
+}
+
+.add-comment {
+    background: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    bottom: 0px;
+    right: 520px;
+    width: 238px;
+    height: 150px;
+    border: 4px solid black;
+    padding: 0px;
+}
+
+.fleche-haut{
+    width: 140px;
+    height: 135px;
+    background: none;
+    position: absolute;
+    bottom: 5px;
+    right: 388px;
+
+}
+
+.description{
+    font-size: 25px;
+    margin: 5px;
+    background: none;
+    position: absolute   
+    bottom: 0px;
+}
+
+.description-container {
+    background: none;
+    height: 147px;
+    position: absolute;
+    width: 600px;
+    bottom: 0px;
+    border-right: solid black 2px;
+}
+
+.like {
+    background: none;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+    left: 610px;
+    cursor: pointer;
+
+}
+
+.like-active {
+    cursor: pointer;
+    background: none;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+    left: 625px;
+    opacity: 0;
+}
+
+.btn-like {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 40px;
+    left: 750px;
+}

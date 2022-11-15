@@ -1,0 +1,45 @@
+<html lang="fr">
+<head>
+       
+<!-- **HEAD** -->
+
+<!-- <?php
+    
+$bdd = new PDO('mysql:host=localhost;dbname=senior_chat;charset=utf8;', 'root', '');
+
+
+
+?> -->
+    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeniorChat</title>
+</head>
+<body>
+
+<!-- **BODY** -->
+
+    <section class="box-text-title">
+        <h1 class="title-h1">SeniorChat</h1>
+        <h2 class="slogan-h2">Avec SeniorChat gardez une vie sociale, même chez vous.</h2>
+        <img src="../assets/SeniorChatLOGO.png" alt="Logo de SeniorChat" class="logo-seniorchat">
+    </section>    
+
+    <section class="connexion">
+        <form method="POST">
+            <h2 class="h2-connexion">Connexion</h2>
+            <input type="text" class="username" placeholder="Pseudonyme" name="username" autocomplete="off" method="POST">
+            <input type="password" class="password" placeholder="Mot De Passe" name="mdp" autocomplete="off" method="POST">
+
+            <a href="page-acceuil.html"><input type="submit" class="submit" value="Se Connecter" name="envoi" method="POST"></a>
+            <a href="page-acceuil.html" class="creer-compte">Vous n'avez pas de compte ? <br> Creez-en un</a>
+        </form>
+    </section>
+
+    <footer>
+        <!-- <h1>Contact US</h1> -->
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<html lang="fr">
+<!-- 
+<?php
+
+$bdd = new PDO('mysql:host=localhost;dbname=senior_chat;charset=utf8', 'root', '');
+
+$sqlQuery = 'SELECT * FROM users WHERE username = :username AND user_id >= :user_id_value';
+$sqlQueryInsert = 'INSERT INTO users(full_name, username, email, mdp, age, city) VALUES (:full_name, :username, :email, :mdp, :age, :city)';
+$usersStatement = $bdd->prepare($sqlQueryInsert);
+$usersStatement->execute([
+    'full_name' => 'Exemple Exemple11',
+    'username' => 'Exemple',
+    'email' => 'exemple@gmail.com',
+    'mdp' => 'exemple',
+    'age' => 16,
+    'city' => 'Ex',
+]);
+
+    ?> -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../css/style_creer-compte.css"> -->
+    <title>Créer un compte</title>
+</head>
+<body>
+    
+<form method="POST" action="inscription.php>" class="connexion">
+        <h2 class="h2-connexion">Connexion</h2>
+        <input type="text" class="email" placeholder="Email" name="email" autocomplete="off" method="POST" action="inscription.php>">
+        <input type="password" class="password" placeholder="Mot De Passe" name="mdp" autocomplete="off">
+
+        <input type="submit" class="submit" value="Creer un compte" name="envoi">
+</form>
+
+</body>
+</html>

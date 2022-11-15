@@ -1,0 +1,27 @@
+* {
+	padding: 0px;
+	margin: 0px;
+    background-color: #b8b4a7;
+}
+
+.profil {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30%
+}
+
+.pdp{
+	width: 20%;
+	border-radius: 50%;
+	margin-top: 140px;
+}
+
+.h3-info {
+	position: absolute;
+	top: 400px;
+}
+
+.email {
+	margin-top: 20px;
+}

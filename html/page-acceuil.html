@@ -1,0 +1,58 @@
+<html lang="fr">
+<head>     
+    <link rel="stylesheet" href="../css/style_page-acceuil.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeniorChat</title>
+
+    <script type="text/javascript">
+	let isActive = false;
+
+	function clicked(){ 
+		const like = document.getElementById("like");
+		console.log("Click");
+		like.style.opacity = "0";
+	}
+
+    </script>
+
+</head>
+
+<body>
+	
+	<section>
+		<nav class="nav-bar">
+			<a href="profil.html"><img src="../assets/profile-logo.png" class="profile-logo"></a>
+			<img src="../assets/message-logo.png" class="message-logo">
+			<img src="../assets/telephone-logo.png" class="telephone-logo">
+			<img src="../assets/video-logo.png" class="video-logo">
+		</nav>
+	</section>
+
+	<section class="fil-actu">
+		<div class="commentaire"></div>
+		<input type="text" name="add-comment" class="add-comment" placeholder="Ajoutez un commentaire !">
+		<img src="../assets/fleche-haut.png"class="fleche-haut">
+		<img src="../assets/vieux.jpg" class="vieux-image">
+		<div  class="description-container">
+			<p class="description">BLABLABLA</p>
+
+		</div>
+
+
+		<button class="btn-like" onclick="clicked()">LIKE</button>
+		<img class="like" src="../assets/like.png">
+		<img  class="like-active" src="../assets/like-active.png">
+
+
+
+	</section>
+
+	<section class="pub-plus">
+		<img src="../assets/pub-oasis.gif" class="pub-oasis">
+		<img src="../assets/plus-button.png" class="plus-button">
+
+	</section>
+
+</body>
